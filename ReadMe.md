@@ -1,3 +1,5 @@
+## ME-RISE: Mechanism for Edge Rewiring for Influence Spread Enhancement
+
 **Specific.py**
 <p align="justify"> This short script demonstrates how the spread dynamics vary in the same network when different seed sets are chosen. It generates a small directed Erdős–Rényi graph with 15 nodes and edge probability 0.1. For two iterations, it selects two seed nodes using degree-weighted sampling and computes node-level spread via the spread_reach function over T = 20 time steps with an activation probability of 0.2. Each node’s spread is stored as a node attribute (weight), with seeds fixed at 1.0, and the resulting node-weighted network is saved to separate GML files (Save0.gml, Save1.gml). This setup allows comparison of how different seeds influence reachability and diffusion patterns in the same underlying network. </p>
 
