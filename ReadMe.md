@@ -16,6 +16,8 @@
 **Viz_Scale.py**
 <p align="justify"> This script visualizes runtime comparisons between two groups (e.g., “Unscaled” vs. “Scaled”) across different network sizes. It uses Matplotlib to create a grouped bar chart with error bars, plotting example data for subnetworks and full networks. The y-axis is set to a log scale to accommodate large runtime differences. The chart clearly shows how scaling affects performance, with distinct coloring for each group and labeled axes. This approach can be adapted for any network dataset by replacing Y1, Y2, and their corresponding errors. </p>
 
+
 **References.**
 https://snap.stanford.edu/data/
+
 https://networkrepository.com/index.php
